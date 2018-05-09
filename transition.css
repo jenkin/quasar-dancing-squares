@@ -1,0 +1,4 @@
+.element {
+    transition-duration: 1s;
+    transition-property: left, top;
+}

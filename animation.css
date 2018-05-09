@@ -1,0 +1,25 @@
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scaling {
+    from {
+        width: 100px;
+        height: 0px;
+        background-color: red;
+    }
+    to {
+        width: 0px;
+        height: 100px;
+        background-color: blue;
+    }
+}
+
+.element {
+    animation: rotating 5s linear infinite, scaling 5s linear infinite alternate;
+}
